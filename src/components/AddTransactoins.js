@@ -25,12 +25,12 @@ const AddTransactoins = () => {
       <hr />
       <form onSubmit={handleSubmit}>
       <div>
-        <p><b>Text</b></p>
+        <h3><b>Text</b></h3>
         <input type="text" name='name' value={val.name} onChange={handleChange} placeholder="Enter text" />
       </div>
 
       <div>
-        <p><b>Amount</b></p>
+        <h3><b>Amount</b></h3>
         <small>Note: enter (+) no for income & (-) for expence</small>
         <input type="text" name='amount' value={val.amount} onChange={handleChange} placeholder="0.00" />
       </div>
