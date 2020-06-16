@@ -31,6 +31,7 @@ const AddTransactoins = () => {
 
       <div>
         <p><b>Amount</b></p>
+        <small>Note: enter (+) no for income & (-) for expence</small>
         <input type="text" name='amount' value={val.amount} onChange={handleChange} placeholder="0.00" />
       </div>
       <button type="submit" className="button1">Add</button>
